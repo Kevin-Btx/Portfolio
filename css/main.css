@@ -1,9 +1,11 @@
 html {
     font-size: 62.5%;
+    
 }
 
 body , footer {
     background: radial-gradient(circle at center, #0c1b2a, #020305) !important;
+     font-family: "Montserrat", sans-serif;
 }
 
 /* ===================== NAV / HEADER ===================== */
