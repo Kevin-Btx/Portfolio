@@ -1,0 +1,71 @@
+.navbar {
+   
+    background-color:#333333;
+}
+
+.nav-link{
+    color: white;
+}
+
+
+
+.Accueil {
+    font-size: 60px;
+    background-image:url(/Hotel-js/img/Lille-Seminaires.jpg);
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+   
+}
+
+h1 {
+    color:black;
+    background-color: rgba(255, 255, 255, 0.397);
+    padding: 40px 20px;
+ 
+}
+
+#réservation{
+    background-color: #1B1B1B;
+    color:white;
+    padding: 40px 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.send{
+background-color:#B99470;
+color: white;
+
+}
+
+.logo{
+    margin-left: 20px;
+    
+}
+
+.leave{
+    font-size: 60px;
+    background-image: url(/Hotel-js/img/Lille-Hall.jpg);
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    margin-top: 50px;
+}
+
+h2 {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.397);
+    padding: 40px 20px;
+}
+
+#leaveCustomer{
+     background-color: #1B1B1B;
+    color:white;
+    padding: 40px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}

@@ -1,0 +1,344 @@
+@font-face {
+    font-family: 'bebas_regular';
+    src: url(../fonts/BEBAS___-webfont.woff) format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    color: white;
+    background-color: #ea222d;
+    display: flex ;
+    justify-content: space-between;
+    padding: 00px;
+    align-items:center;
+    padding: 0px 60px;
+}
+
+
+h1 {
+    font-family: 'bebas_regular';
+   
+}
+
+
+nav ul li {
+    display: flex;
+    color: white;
+
+}
+
+.contact {
+    color: rgb(245, 245, 245);
+}
+
+.perso {
+    color: white
+}
+
+.movie {
+    color: white
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 15px;
+    background-color: #ea222d;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#marvel {
+    background-color: rgb(255, 253, 253);
+    color: #ea222d;
+    padding: 3px 5px;
+    font-size: 32px;
+    font-weight: bolder;
+    display: inline-block;
+    margin: 0px;
+    margin-top: 80px;
+    
+}
+
+#incolable {
+    background-color: #ea222d;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    display: inline-block;
+ margin: 0px;
+}
+
+.principale {
+    background-image: url(../img/texture.jpeg);
+    background-size: cover;
+    height: 700px;
+    padding: 0;
+
+
+
+}
+
+.perso-container {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.personnages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    white-space: pre-line;
+}
+
+.image img {
+    width: 100px;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #e6e6e6;
+    font-size: 30;
+    margin: 0px;
+
+}
+
+h6 {
+    font-size: 18px;
+}
+
+.cinema {
+    background-color: #ea222d;
+    margin: 0px;
+    padding: 0px;
+    height: 700px;
+}
+
+.youtube {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.video {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    white-space: pre-line;
+    padding-top: 50px;
+}
+
+.video iframe {
+    width: 400px;
+    height: 200px
+}
+
+.legende h6 {
+    margin-bottom: 0px;
+    margin-top: 6px;
+    color: white;
+    font-size: 20px;
+}
+
+.legende p {
+    margin-top: 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.contacte {
+    background-color: white;
+}
+
+.adaptation {
+    padding-bottom: 0px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.venir {
+    margin-top: 60px;
+}
+
+.tableauCiné {
+    margin: 30px auto;
+}
+
+.tableauCiné th {
+    background-color: white;
+}
+
+.tableauCiné td {
+    background-color: white;
+
+}
+
+.tab {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.tableauCiné {
+    width: 80%;
+}
+
+.tab {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tableauCiné {
+    width: 50%;
+    display: inline-table;
+}
+
+.localisation {
+    color: #ea222d;
+}
+
+.btn {
+    background-color: white;
+    color: #ea222d;
+    font-weight: bold;
+    border: 2px solid red;
+    border-radius: 4px;
+    padding: 03px 10px;
+}
+
+.embl {
+    color: #ea222d;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color:white;
+}
+
+.contacte {
+    max-width: 1200px;
+    margin: 80px auto;
+}
+
+.questions {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.formulaire {
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.formulaire form {
+    display: flex;
+    flex-direction: column;
+}
+
+.map {
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.localisation {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 34px;
+    color: #ea222d;
+}
+
+.loc {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 34px;
+    color: #ea222d;
+}
+
+.questions input[type="text"],
+.questions select,
+.questions textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.questions input[type="submit"] {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 250px;
+    display: block;
+    border: 0;
+}
+
+.cr{
+    background-color: #ea222d;
+    color: white;
+    height: 60px;
+}
+
+
+
+
+
+
+
+
+
+    
+   
+
+
+
+
+/* Agrandir le bg , modifier boutons , modifier taille de la police , voir pour le marvel univers en tete de ligne*/

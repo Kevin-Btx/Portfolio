@@ -1,0 +1,251 @@
+html {
+    font-size: 62.5%;
+}
+
+body , footer {
+    background: radial-gradient(circle at center, #0c1b2a, #020305) !important;
+}
+
+/* ===================== NAV / HEADER ===================== */
+
+#index {
+    height: 20rem;
+    background: transparent;
+    position: relative;
+}
+
+#menu {
+    font-size: 18px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+
+.navbar-toggler {
+    font-size: 2rem;
+    margin-right: 60px;
+}
+
+.logo {
+    display: flex;
+    margin-left: 10rem;
+}
+
+/* NAV LINKS */
+.navbar-nav .nav-item .nav-link {
+    color: #00d4ff;
+    text-shadow: 0 0 8px #00d4ff;
+}
+
+/* underline hover */
+nav ul li {
+    position: relative;
+}
+
+nav ul li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: rgb(82, 182, 15);
+    transition: 0.3s;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+
+/* ===================== MAIN ===================== */
+
+main {
+    padding-top: 200px;
+}
+
+/* ===================== PRESENTATION ===================== */
+
+.presentation-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.presentation {
+    display: inline-block;
+    max-width: 600px;
+    text-align: left;
+    font-size: 2.2rem;
+    color: #e7f4f7;
+    margin-left: 40px;
+}
+
+.dev {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+/* responsive */
+@media (max-width: 1024px) {
+    .presentation-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dev {
+        max-width: 500px;
+    }
+}
+
+ /* TITRES */
+
+h2 {
+    padding-top: 300px;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    color: #00d4ff;
+    
+}
+
+h3 {
+    color: #b82c43;
+    margin: 0;
+    padding: 0;
+}
+
+ /* BUTTON  */
+
+.btn {
+    font-size: 2rem;
+    background: radial-gradient(circle at center, #0c1b2a, #020305) !important;
+    border: solid rgb(212, 212, 201);
+    width: fit-content;
+}
+
+.card-projet .btn {
+    font-size: 0.85rem;
+    padding: 5px 10px;
+}
+
+/* PROJETS */
+
+.projets {
+    padding: 40px 20px;
+}
+
+.title-projects {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+/* CARD */
+.card-projet {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    width: 100%;
+    color: inherit;
+}
+
+.card-projet:hover {
+    
+       transform: translateY(-6px) scale(1.02);
+    filter: blur(0.5px);
+}
+    
+
+
+
+.card-projet .screen {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+   
+}
+
+/* TITLE DANS CARD */
+.card-projet h3 {
+    margin: 0;
+    padding: 10px;
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+}
+
+/* Form */
+
+h4 {
+    font-size:5rem;
+    padding-top: 20rem;
+}
+h5{
+    font-size: 2.5rem;
+}
+
+.form-group {
+    margin-bottom: 2.4rem;
+    
+}
+
+.form-control {
+    height: 3.8rem;
+    font-size: 1.4rem;
+    background-color: transparent;
+    border-radius: 2px;
+}
+
+.form p {
+    margin: 10px 0 30px 0;
+}
+
+
+/******
+Footer 
+*/
+.dark-wrapper {
+    
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.social-bar {
+    width: 100%;
+    text-align: right;
+}
+.social-bar a {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: #fff;
+    opacity: 1;
+    transition: opacity 350ms;
+}
+.social-bar a:hover {
+    opacity: 0.5;
+}
+
+@media (max-width: 767px) {
+    .social-bar {
+        text-align: left;
+        margin-top: 3rem;
+    }
+}
+
+.social-bar i:hover {
+    transform: scale(1.2);
+    color: #00d4ff;
+    text-shadow: 0 0 10px #00d4ff;
+}
+.social-bar i {
+    font-size: 4rem; 
+    color: #00d4ff;
+    margin: 10px;
+    transition: 0.3s;
+}

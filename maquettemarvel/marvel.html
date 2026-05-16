@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <title>Marvelunivers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css/marvel.css" />
+
+
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="marv"> MARVELunivers </h1>
+            <nav>
+
+                <ul>
+                    <li>
+                        <a href="#personnage" class="perso">Personnage</a>
+                    </li>
+                    <li>
+                        <a href="#cinéma" class="movie">Cinéma</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="contact">Contact</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+
+        </div>
+    </header>
+
+    <main class="principale">
+
+        <div class="decouvrez">
+
+            <p id="marvel">
+                DÉCOUVREZ L'UNIVERS MARVEL !
+            </p>
+        </div>
+        <div>
+            <p id="incolable">
+                Devenez incollable sur l'univers marvel,ses personnages et ses films..
+            </p>
+        </div>
+
+        <h2 class="embl" id="personnage"> LES PERSONNAGES EMBLEMATIQUES</h2>
+        <div class="perso-container">
+            <div class="personnages">
+                <figure class="image">
+                    <img src="img/iron-man.png" alt="Casque d'Iron Man" />
+                </figure>
+                <h6>Iron Man</h6>
+                <p> Anthony «Tony» Stark alias Iron
+                    man, est un super-héros évoluant
+                    dans l'univers Marvel de la maison
+                    d'édition Marvel Comics.
+                </p>
+                <button class="btn">Détails</button>
+            </div>
+
+            <div class="personnages">
+                <figure class="image">
+                    <img src="img/spiderman.png" alt="Masque de spiderman" />
+                </figure>
+                <h6>Spiderman</h6>
+                <p>Peter Parker,alias Spider-man,est
+                    un super-héros évoluant dans
+                    l'univers Marvel de la maison
+                    d'édition Marvel Comics.</p>
+                <button class="btn">Détails</button>
+            </div>
+
+            <div class="personnages">
+                <figure class="image">
+                    <img src="img/captain-america.png" alt="Masque de captain America" />
+                </figure>
+                <h6>Captain America</h6>
+                <p>Captain America est un super-
+                    héros de bande dessinée évoluant
+                    dans l'univers Marvel de la maison
+                    d'édition Marvel Comics.</p>
+                <button class="btn">Détails</button>
+            </div>
+
+            <div class="personnages">
+                <figure class="image">
+                    <img src="img/thor.png" alt="Masque de Thor" />
+                </figure>
+                <h6>Thor</h6>
+                <p>Thor est une divinité et un super-
+                    héros évoluant dans l'univers
+                    Marvel de la maison d'édition
+                    Marvel Comics</p>
+                <button class="btn">Détails</button>
+            </div>
+        </div>
+    </main>
+    <div class="cinema">
+        <div class="adaptation">
+            <h2 id="cinéma"> ADAPTATION AU CINEMA</h2>
+        </div>
+        <div class="youtube">
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rDCTb9Gp2qk?si=Y6eB3T_h3L79tsSs"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+              web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="legende">
+                    <h6>Iron Man</h6>
+                    <p>Anthony «Tony» Stark alias Iron
+                        man, est un super-héros évoluant
+                        dans l'univers Marvel de la maison
+                        d'édition Marvel Comics.</p>
+                </div>
+            </div>
+
+
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fuIIGDjEj8Q?si=tELerFSPHbEOkHFV"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+         encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen></iframe>
+                <div class="legende">
+                    <h6>Captain America</h6>
+                    <p>Captain América est un super-héros
+                        de bande dessinée évoluant
+                        dans l'univers Marvel de la maison d'édition Marvel
+                        Comics.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="venir">
+            <h2>A VENIR</h2>
+        </div>
+        <div class="tab">
+            <table border="1" class="tableauCiné">
+                <thead>
+                    <tr>
+                        <th>Nom du film</th>
+                        <th>Date de sortie</th>
+                    </tr>
+                    <tr>
+                        <td>Captain Marvel</td>
+                        <td colspan="2">8 mars 2019</td>
+                    </tr>
+                    <tr>
+                        <td>Avengers:Infinity War-Part 2</td>
+                        <td colspan="2">3 mai 2019</td>
+                    </tr>
+                    <tr>
+                        <td>Spider-Man:Far From Home</td>
+                        <td colspan="2">5 juillet 2019</td>
+                    </tr>
+                    <tr>
+                        <td>Guardian of the galaxy Vol 3</td>
+                        <td colspan="2">2020</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+    <div class="contacte">
+    <div class="bloc-contact">
+        <div class="questions">
+
+            <div class="formulaire">
+                <h2 class="localisation" id="contact">CONTACTEZ-NOUS</h2>
+
+                <form method="POST" action="FichierDeTraitementDesDonnees.php">
+                    <label for="inputFirstname">Votre prénom :</label>
+                    <input type="text" id="inputFirstname" name="firstname" />
+
+                    <label for="inputMail">Votre email :</label>
+                    <input type="text" id="inputMail" name="mail">
+
+                    <label for="subjectRequest">Objet de la demande</label>
+                    <select id="subjectRequest" name="request">
+                        <option value="event" selected>Evénement</option>
+                        <option value="question">Questions</option>
+                        <option value="contact">Demande de contact</option>
+                    </select>
+
+                    <label for="textareaMessage">Votre message :</label>
+                    <textarea id="textareaMessage" name="message" rows="6">Saisissez ici votre message</textarea>
+
+                    <input type="submit" value="Envoyer">
+                </form>
+            </div>
+
+            <div class="map">
+                <h2 class="loc">Studios Marvel</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1388.1633767206633!2d-118.32537696337232!3d34.15587024308307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bfc3c6e72393%3A0x2f1680d5b57e095d!2sWalt%20Disney%20Studios%20Burbank!5e0!3m2!1sfr!2sfr!4v1775352335323!5m2!1sfr!2sfr"
+                    width="600"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <div class="cr">
+        <h6>Copyright© Since 2026 For Elory School</h6>
+    </div>
+    
+
+</body>
+
+</html>
